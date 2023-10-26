@@ -1,0 +1,191 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.logo {
+    display: flex;
+}
+
+.nav__title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 15px;
+    font-weight: 700;
+    font-size: 18px;   
+    color: #000;
+    transition: 0.3s;
+}
+
+.links :hover {
+    color: #EF4423;
+}
+
+.header-img {
+    margin-top: 15px;
+}
+
+/* Header stop */
+/* Main start */
+
+.cards {
+    margin-top: 35px;
+    max-width: 100%;
+    display: flex;
+}
+
+.card1 {
+    background: #B71C1C;
+}
+
+.card2 {
+    background: #6A1B9A;
+}
+
+.card3 {
+    background: #303F9F;
+}
+
+.card4 {
+    background: #00695C;
+}
+
+.cardss {
+    padding: 15px;
+}
+
+
+
+.card__text {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EBEBEB;
+    line-height: 19px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 19px; 
+    color: #fff;
+}
+
+.img {
+    width: 100%;
+}
+
+
+.main_title {
+    text-align: center;
+    margin: 40px;
+}
+
+.main__img {
+    background: #EDEDED;
+    display: flex;
+}
+
+.main__ {
+    display: flex;
+}
+
+.main-title {
+    padding: 20px 30px 30px 30px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3A3838;
+}
+
+.main-title2 {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+}
+
+
+/* main stop */
+
+/* footer start */
+
+.footer {
+    min-height: 130px;
+    margin-top: 30px;
+    background: #3A3838;
+    padding: 20px 0;
+
+}
+
+.logo_text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_2 {
+    padding: 15px;
+    font-weight: 700;
+    font-size: 18px;   
+    color: #fff;
+    transition: 0.3s;
+}
+
+.nav__title_ {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+
+
